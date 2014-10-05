@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+
+    "name": "Pokemon Showdown Keybindings",
+    "description": "Enables keyboard-only Pokemon Showdown.",
+    "version": "1.0",
+
+    "permissions": [],
+    
+    "content_scripts": [
+        {
+            "matches": ["http://play.pokemonshowdown.com/*"],
+            "js": ["contentscript.js"]
+        }
+    ]
+}
