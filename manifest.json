@@ -9,6 +9,7 @@
     
     "content_scripts": [
         {
+            "run_at": "document_end",
             "matches": ["http://play.pokemonshowdown.com/*"],
             "js": ["jquery.min.js", "contentscript.js"]
         }
